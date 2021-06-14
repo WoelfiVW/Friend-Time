@@ -763,8 +763,8 @@
             "twelveHour": "/\\b({{REF:timeFormat.twelveHour}}|12-Stunden|12h|12-hour)\\b/i"
         },
         "yesNo": {
-            "yes": "/\\b({{REF:yesNo.yes}}|ja|oké|j|y|enabled|enable|e|true|t|on|1)\\b/i",
-            "no": "/\\b({{REF:yesNo.no}}|nein|nee|n|disabled|disable|d|false|f|off|0)\\b/i"
+            "yes": "/\\b({{REF:yesNo.yes}}|oké|j|y|enabled|enable|e|true|t|on|1)\\b/i",
+            "no": "/\\b({{REF:yesNo.no}}|nee|n|disabled|disable|d|false|f|off|0)\\b/i"
         }
     },
     "refs": {
@@ -843,9 +843,9 @@
             "twentyFourHourDisplay": "24-Stunden"
         },
         "yesNo": {
-            "yes": "yes",
+            "yes": "ja",
             "yesDisplay": "Ja",
-            "no": "no",
+            "no": "nein",
             "noDisplay": "Nein"
         },
         "lists": {
